@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="at.bestsolution.efxclipse.runtime.workbench.swing.application"
+            name="Name">
+         <property
+               name="applicationXMI"
+               value="TestE4Swing/Application.e4xmi">
+         </property>
+         <property
+               name="appName"
+               value="Name">
+         </property>
+      </product>
+   </extension>
+
+
+</plugin>
